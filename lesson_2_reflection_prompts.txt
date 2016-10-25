@@ -24,3 +24,7 @@ What is the result of merging two branches together? Why do we represent it in t
 	The contents of "coins" is added to the master. This can be seen with different time stamps from the coins branch's commits. Because the master branch is the "main" branch that you want to preserve. When you merge something into it, the master remains the parent branch and the other branch is the child.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic - pros: automated process, quick > cons: may not be correct
+
+	Manual - pros: allows more quality assurance > cons: more time consuming
