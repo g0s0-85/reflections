@@ -7,16 +7,20 @@ What value do you think it offers?
 
 	The staging area allows you to select the files you want to commit before officially committing them to the git repository. This allows you to double check the files are correct before making a commit.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+	You can run the git dff command to see what changes have been made prior to commiting a file to the repository directory
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When you are trying out a new feature for a project or you are making different versions of the same code in other spoken languages. Branches help by separating these 'coding' paths while staying relevant to the master file(s).
 
 How do the diagrams help you visualize the branch structure?
+	
+	They help you see the folow of commits on branches so that you can understand parent/child relationships or branches that aren't accessible via a git log.
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
-manually?
+	The contents of "coins" is added to the master. This can be seen with different time stamps from the coins branch's commits. Because the master branch is the "main" branch that you want to preserve. When you merge something into it, the master remains the parent branch and the other branch is the child.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
