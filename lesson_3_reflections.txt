@@ -21,3 +21,11 @@ When would you want to use a remote repository rather than keeping all your work
  What is the benefit of having a copy of the last known state of the remote stored locally?
 
  	You can see what the latest commits have been which could be useful if you are going offline and need to reference the latest work of a collaborator.
+
+ How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+ 	I would work on a shared server or through email. It would be easier since you wouldn't have to interact with the terminal and could have more face/face contact. It would be harder b/c you couldn't check versions as easily and compare differences between your code.
+
+ When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+ 	When you are working on a new feature that you would want to eventually add. If you worked directly in master then you would have one single branch and wouldn't need worry about switching between multiple branches which is simpler. However, if you are working with others or are working on a more complex feature then having other branches is useful for testing/quality checking.
